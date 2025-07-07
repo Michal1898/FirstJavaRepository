@@ -8,5 +8,9 @@ public class Main {
         System.out.println("Zadej svoje jmeno:");
         String my_name =  scanner.nextLine();
         System.out.println("Jmenujes se:" + my_name);
+
+        System.out.println("Zadej svuj vek:");
+        int my_age =  scanner.nextInt();
+        System.out.println("Je ti:" + my_age+"let.");
     }
     }
